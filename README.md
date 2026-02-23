@@ -1,4 +1,4 @@
-# Sales CRM (Pay.Partners)
+# Sales CRM (PP)
 
 ## Files
 - `leads.csv` — master lead list
