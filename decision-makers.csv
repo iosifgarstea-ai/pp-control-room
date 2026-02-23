@@ -1,16 +1,22 @@
 dm_id,company_id,company,full_name,title,linkedin_url,email,telegram,status,last_contact,next_step,notes
-DM-001,C-001,Ascend Global,Alessandra Rispoli,Chief Executive Officer,https://www.linkedin.com/company/ascend,, ,Partially Found,,Find performance/commercial lead under CEO,Name from public search snippet
-DM-002,C-002,CliqBetter,,, ,,,Not Found,,Find COO/Commercial Lead,Need direct profile
-DM-003,C-003,iGaming Scale,,, ,,,Not Found,,Find Founder/Head of Media Buying,Need direct profile
-DM-004,C-004,Performix Media,,, ,,,Not Found,,Find Head of Acquisition,Need direct profile
-DM-005,C-005,XCLSV Media,Zaire Williams,Founder, ,,,Partially Found,,Locate direct LinkedIn profile URL,Name from public snippet
-DM-006,C-006,Player Performance Group,Chris Province,Founder / Performance Lead, ,,,Partially Found,,Find verified profile/contact route,Name from company/event snippets
-DM-007,C-007,Incline Gaming,,, ,,,Not Found,,Find Performance Director,Pending enrichment
-DM-008,C-008,TBD.Media,Brandon Ortega,CEO/Founder, ,,,Partially Found,,Confirm relevance to iGaming vertical,Name from public snippet
-DM-009,C-009,Clear Media Group (iGaming),Ugis Zvilna,CEO, ,,,Partially Found,,Get direct LinkedIn URL + contact,Name from public snippet
-DM-010,C-010,Choix Media LLC,,, ,,,Not Found,,Find Founder/Commercial Lead,Pending enrichment
-DM-011,C-011,GameOn,,, ,,,Not Found,,Find founder/commercial lead,New target
-DM-012,C-012,Bird Marketing (Casino),,, ,,,Not Found,,Find head of paid media,New target
-DM-013,C-013,Traffic Lab (iGaming),,, ,,,Not Found,,Find growth/ops lead,New target
-DM-014,C-014,Vicious Marketing,,, ,,,Not Found,,Find founder or account director,New target
-DM-015,C-015,AffPapa Network,,, ,,,Not Found,,Find partnerships lead,Referral channel
+DM-001,C-001,Ascend Global,,Head of Performance Marketing / Partnerships,https://www.linkedin.com/company/ascend,, ,Role Target,,Reach out to Partnerships/BizDev first,Use functional buyer role not CEO
+DM-002,C-002,CliqBetter,,Business Development Manager / Commercial Partnerships,, , ,Role Target,,Open with partnership + media-buying ops angle,Prioritize non-CEO commercial owner
+DM-003,C-003,iGaming Scale,,Head of Media Buying / Partnerships Manager,, , ,Role Target,,Ask for person managing payment ops for buyer teams,High-fit role target
+DM-004,C-004,Performix Media,,Head of Acquisition / Partnerships Lead,, , ,Role Target,,Find person responsible for client growth and ops,Non-CEO collaboration path
+DM-005,C-005,XCLSV Media,Zaire Williams,Founder, ,,,Partially Found,,Request intro to Partnerships/Account lead,Use founder only to route to operator
+DM-006,C-006,Player Performance Group,Chris Province,Founder / Performance Lead, ,,,Partially Found,,Ask for Media Director / Client Success lead,Use ops contact for collaboration
+DM-007,C-007,Incline Gaming,,Performance Director / Client Partnerships Manager,, , ,Role Target,,Target delivery owner not founder,Pending profile match
+DM-008,C-008,TBD.Media,Brandon Ortega,CEO/Founder, ,,,Partially Found,,Request intro to paid media/account lead,Founder as referral gate only
+DM-009,C-009,Clear Media Group (iGaming),Joe Battista,Media Director, ,,,Partially Found,,Reach media director first for collaboration,Non-CEO decision path from public snippet
+DM-010,C-010,Choix Media LLC,,Commercial Director / Growth Lead,, , ,Role Target,,Find contact owning partnerships and campaign delivery,Pending enrichment
+DM-011,C-011,GameOn,,Partnerships Manager / Account Director,, , ,Role Target,,Offer collaboration model for affiliate/media clients,New target
+DM-012,C-012,Bird Marketing (Casino),,Head of Paid Media / Partnerships Manager,, , ,Role Target,,Lead with payment reliability for casino campaigns,New target
+DM-013,C-013,Traffic Lab (iGaming),,Performance Marketing Manager / COO,, , ,Role Target,,Find operator handling daily spend execution,New target
+DM-014,C-014,Vicious Marketing,,Account Director / Head of Performance,, , ,Role Target,,Qualify client vertical fit then pitch collab,New target
+DM-015,C-015,AffPapa Network,,Partnerships Lead / Business Development,, , ,Role Target,,Use as referral channel to direct buyer teams,Referral channel
+DM-016,C-016,Click Intelligence,,Account Director / PPC Lead,, , ,Role Target,,Target campaign owner who feels payment friction,Non-CEO operator contact
+DM-017,C-017,AWISEE,,Partnerships Manager / Head of Growth,, , ,Role Target,,Pitch collaboration workflow for buying teams,Non-CEO collaboration route
+DM-018,C-018,Crowdcreate,,Account Director / Paid Media Lead,, , ,Role Target,,Target delivery-side operator for faster conversion,Non-CEO role
+DM-019,C-019,NinjaPromo,,iGaming Practice Lead / Partnerships Manager,, , ,Role Target,,Find owner of iGaming book of business,Need vertical-specific operator
+DM-020,C-020,ClickDealer Ecosystem,,Strategic Partnerships Manager,, , ,Role Target,,Use for intros to active media buying agencies,Referral route
+DM-021,C-021,RakeTech Ecosystem,,Business Development Manager,, , ,Role Target,,Request intros to acquisition teams needing card ops,Referral route
