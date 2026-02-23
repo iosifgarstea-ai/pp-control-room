@@ -22,7 +22,7 @@ body{
 }
 .container{max-width:1220px;margin:0 auto;padding:20px}
 .top{
-  display:flex;justify-content:space-between;align-items:center;gap:14px;
+  display:flex;justify-content:space-between;align-items:flex-start;gap:14px;
   margin-bottom:16px;background:linear-gradient(180deg,rgba(255,255,255,.02),transparent);
   border:1px solid var(--line);border-radius:14px;padding:14px;
 }
@@ -33,8 +33,16 @@ body{
   display:grid;place-items:center;font-weight:800;color:white;letter-spacing:.4px;
   box-shadow:0 8px 26px rgba(39,199,123,.35);
 }
-.brand{font-size:22px;font-weight:700;line-height:1}
-.sub{color:var(--muted);font-size:13px;margin-top:4px}
+.brand{font-size:18px;font-weight:700;line-height:1;text-transform:uppercase;letter-spacing:.12em;color:#d8fbe9}
+.sub{color:var(--muted);font-size:12px;margin-top:6px}
+.hero-title{font-family:Impact, Haettenschweiler, 'Arial Black', sans-serif;font-size:54px;line-height:.92;letter-spacing:.01em;text-transform:uppercase;margin:4px 0 0;color:#f1fff8}
+.hero-title .dark{color:#08130f;background:#d8ffe9;padding:0 .14em;border-radius:4px}
+.hero-strip{margin-top:12px;border:1px solid #3d785f;background:linear-gradient(180deg,#143426,#10271d);border-radius:16px;padding:12px;display:flex;gap:14px;align-items:center}
+.mock-screen{flex:0 0 300px;max-width:42%;aspect-ratio:16/10;border-radius:12px;background:linear-gradient(140deg,#0b0f0d,#151f1b);border:1px solid #304f41;position:relative;overflow:hidden}
+.mock-screen:before{content:'';position:absolute;inset:12% 10%;border-radius:10px;background:linear-gradient(120deg,#1f6a4a,#143a2b)}
+.mock-screen:after{content:'';position:absolute;bottom:8%;left:8%;width:46%;height:22%;border-radius:8px;background:linear-gradient(120deg,#f5c451,#2ad085)}
+.hero-copy{font-size:13px;color:#d7f5e7}
+.hero-copy b{font-size:28px;display:block;color:#f5fff9;font-family:Impact, Haettenschweiler, 'Arial Black', sans-serif;letter-spacing:.02em}
 .nav{display:flex;gap:8px;flex-wrap:wrap}
 .nav a{
   padding:9px 12px;border:1px solid var(--line);border-radius:10px;
@@ -63,5 +71,6 @@ tr:hover td{background:#1a1f33}
 .link:hover{text-decoration:underline}
 .footer{margin-top:12px;color:var(--muted);font-size:12px}
 .hero-note{margin-top:10px;color:#ffd8dc;font-size:12px}
-@media (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:580px){.grid{grid-template-columns:1fr}.top{padding:12px}}
+@media (max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-title{font-size:42px}.mock-screen{max-width:48%}}
+@media (max-width:700px){.hero-strip{flex-direction:column;align-items:flex-start}.mock-screen{max-width:100%;width:100%}}
+@media (max-width:580px){.grid{grid-template-columns:1fr}.top{padding:12px}.hero-title{font-size:34px}}
