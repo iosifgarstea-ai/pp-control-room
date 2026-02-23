@@ -1,13 +1,13 @@
 :root{
-  --bg:#0b0b0f;
-  --bg2:#121218;
-  --panel:#16161f;
-  --panel2:#1f1f2b;
-  --text:#f5f7ff;
-  --muted:#b7bdd3;
-  --line:#2a2e43;
-  --accent:#e53946;
-  --accent2:#ff616d;
+  --bg:#071711;
+  --bg2:#0e2a1f;
+  --panel:#10241c;
+  --panel2:#163328;
+  --text:#f3fff9;
+  --muted:#b7d7c8;
+  --line:#275342;
+  --accent:#27c77b;
+  --accent2:#62e6a4;
   --ok:#24c278;
   --warn:#f4c14d;
   --bad:#f26b73;
@@ -17,7 +17,7 @@ body{
   margin:0;
   font-family:Inter,system-ui,Arial,sans-serif;
   color:var(--text);
-  background:radial-gradient(1000px 500px at 90% -10%, rgba(229,57,70,.25), transparent 55%),
+  background:radial-gradient(1000px 500px at 90% -10%, rgba(39,199,123,.25), transparent 55%),
              linear-gradient(180deg,var(--bg),var(--bg2) 45%,var(--bg));
 }
 .container{max-width:1220px;margin:0 auto;padding:20px}
@@ -31,7 +31,7 @@ body{
   width:34px;height:34px;border-radius:9px;
   background:linear-gradient(135deg,var(--accent),var(--accent2));
   display:grid;place-items:center;font-weight:800;color:white;letter-spacing:.4px;
-  box-shadow:0 8px 26px rgba(229,57,70,.35);
+  box-shadow:0 8px 26px rgba(39,199,123,.35);
 }
 .brand{font-size:22px;font-weight:700;line-height:1}
 .sub{color:var(--muted);font-size:13px;margin-top:4px}
@@ -43,7 +43,7 @@ body{
 .nav a.active,.nav a:hover{border-color:var(--accent);box-shadow:0 0 0 1px rgba(229,57,70,.2) inset}
 .grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
 .card{
-  background:linear-gradient(180deg,#1a1a25,#141420);
+  background:linear-gradient(180deg,#143025,#10261e);
   border:1px solid var(--line);border-radius:14px;padding:14px;
 }
 .kpi{font-size:29px;font-weight:800;color:white}
@@ -59,7 +59,7 @@ tr:hover td{background:#1a1f33}
 .a{color:#9fe7c6;border-color:#2b7f60;background:#163f31}
 .b{color:#ffe0a6;border-color:#8d6a24;background:#433112}
 .c{color:#ffb2b2;border-color:#95484d;background:#442127}
-.link{color:#ff9aa2;text-decoration:none}
+.link{color:#8ff0bd;text-decoration:none}
 .link:hover{text-decoration:underline}
 .footer{margin-top:12px;color:var(--muted);font-size:12px}
 .hero-note{margin-top:10px;color:#ffd8dc;font-size:12px}
