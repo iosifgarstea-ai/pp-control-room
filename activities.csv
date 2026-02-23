@@ -1,0 +1,3 @@
+activity_id,date,lead_id,channel,type,summary,outcome,next_step,next_step_date,owner
+A-0001,2026-02-23,L-0001,internal,setup,CRM initialized,ok,Add first 20 leads,2026-02-24,Iosif
+A-0002,2026-02-23,L-0001,internal,research,Initial market scan completed and 15 prospects added,ok,Prepare top-10 outreach list,2026-02-24,Jo

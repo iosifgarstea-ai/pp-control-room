@@ -1,0 +1,11 @@
+<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'><title>Sales CRM Dashboard</title><link rel='stylesheet' href='./styles.css'></head><body><div class='container'>
+<div class='top'><div><div class='brand'>Pay.Partners Sales CRM</div><div class='sub'>Pipeline, prospecting, and execution dashboard</div></div><div class='nav'><a class='active' href='./index.html'>Dashboard</a><a href='./companies.html'>Target Companies</a><a href='./decision-makers.html'>Decision Makers</a><a href='../leads.csv'>Leads CSV</a></div></div>
+<div class='grid'><div class='card'><div class='muted'>Total Leads</div><div class='kpi' id='kTotal'>-</div></div><div class='card'><div class='muted'>Priority A</div><div class='kpi' id='kA'>-</div></div><div class='card'><div class='muted'>New Stage</div><div class='kpi' id='kNew'>-</div></div><div class='card'><div class='muted'>Avg Win Probability</div><div class='kpi' id='kWin'>-</div></div></div>
+<div class='section'><h2>Top High-Chance Prospects</h2><table><thead><tr><th>Company</th><th>Segment</th><th>Win %</th><th>Priority</th><th>Next Action</th><th>Website</th></tr></thead><tbody id='topRows'></tbody></table></div>
+<div class='footer'>When hosted online, tables auto-sync from CSV files in this folder.</div>
+</div><script src='./app.js'></script><script>
+(async()=>{const leads=await loadCSV('../leads.csv');const hc=await loadCSV('../high-chance-prospects.csv');
+byId('kTotal').textContent=leads.length;byId('kA').textContent=hc.filter(x=>x.priority==='A').length;byId('kNew').textContent=leads.filter(x=>(x.stage||'')==='New').length;
+const avg=Math.round(hc.reduce((a,b)=>a+Number((b.win_probability||'0').replace('%','')),0)/Math.max(hc.length,1));byId('kWin').textContent=avg+'%';
+byId('topRows').innerHTML=hc.slice(0,8).map(r=>`<tr><td>${r.company}</td><td>${r.segment}</td><td>${r.win_probability}%</td><td>${badge(r.priority)}</td><td>${r.next_step}</td><td><a class='link' target='_blank' href='${r.website}'>open</a></td></tr>`).join('');})();
+</script></body></html>
