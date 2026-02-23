@@ -3,7 +3,7 @@
 Date: 2026-02-23
 
 ## Stage counts
-- New: 15
+- New: 22
 - Contacted: 0
 - Replied: 0
 - Qualified: 0
@@ -15,8 +15,8 @@ Date: 2026-02-23
 
 ## Priority counts
 - A (75-100): 0
-- B (50-74): 15
-- C (0-49): 0
+- B (50-74): 21
+- C (0-49): 1
 
 ## Today focus
 - Validate top 10 companies (decision-makers + real contact paths)

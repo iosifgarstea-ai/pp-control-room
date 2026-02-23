@@ -1,11 +1,16 @@
 dm_id,company_id,company,full_name,title,linkedin_url,email,telegram,status,last_contact,next_step,notes
-DM-001,C-001,Ascend Global,,, ,,,Not Found,,Find Head of Performance,Pending enrichment
-DM-002,C-002,CliqBetter,,, ,,,Not Found,,Find COO/Commercial Lead,Pending enrichment
-DM-003,C-003,iGaming Scale,,, ,,,Not Found,,Find Founder/Head of Media Buying,Pending enrichment
-DM-004,C-004,Performix Media,,, ,,,Not Found,,Find Head of Acquisition,Pending enrichment
-DM-005,C-005,XCLSV Media,,, ,,,Not Found,,Find Growth Lead,Pending enrichment
-DM-006,C-006,Player Performance Group,,, ,,,Not Found,,Find COO/Head of Ops,Pending enrichment
+DM-001,C-001,Ascend Global,Alessandra Rispoli,Chief Executive Officer,https://www.linkedin.com/company/ascend,, ,Partially Found,,Find performance/commercial lead under CEO,Name from public search snippet
+DM-002,C-002,CliqBetter,,, ,,,Not Found,,Find COO/Commercial Lead,Need direct profile
+DM-003,C-003,iGaming Scale,,, ,,,Not Found,,Find Founder/Head of Media Buying,Need direct profile
+DM-004,C-004,Performix Media,,, ,,,Not Found,,Find Head of Acquisition,Need direct profile
+DM-005,C-005,XCLSV Media,Zaire Williams,Founder, ,,,Partially Found,,Locate direct LinkedIn profile URL,Name from public snippet
+DM-006,C-006,Player Performance Group,Chris Province,Founder / Performance Lead, ,,,Partially Found,,Find verified profile/contact route,Name from company/event snippets
 DM-007,C-007,Incline Gaming,,, ,,,Not Found,,Find Performance Director,Pending enrichment
-DM-008,C-008,TBD.Media,,, ,,,Not Found,,Find Paid Media Manager,Pending enrichment
-DM-009,C-009,Clear Media Group (iGaming),,, ,,,Not Found,,Find Founder/Director,Pending enrichment
+DM-008,C-008,TBD.Media,Brandon Ortega,CEO/Founder, ,,,Partially Found,,Confirm relevance to iGaming vertical,Name from public snippet
+DM-009,C-009,Clear Media Group (iGaming),Ugis Zvilna,CEO, ,,,Partially Found,,Get direct LinkedIn URL + contact,Name from public snippet
 DM-010,C-010,Choix Media LLC,,, ,,,Not Found,,Find Founder/Commercial Lead,Pending enrichment
+DM-011,C-011,GameOn,,, ,,,Not Found,,Find founder/commercial lead,New target
+DM-012,C-012,Bird Marketing (Casino),,, ,,,Not Found,,Find head of paid media,New target
+DM-013,C-013,Traffic Lab (iGaming),,, ,,,Not Found,,Find growth/ops lead,New target
+DM-014,C-014,Vicious Marketing,,, ,,,Not Found,,Find founder or account director,New target
+DM-015,C-015,AffPapa Network,,, ,,,Not Found,,Find partnerships lead,Referral channel
