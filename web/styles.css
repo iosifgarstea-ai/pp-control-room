@@ -1,13 +1,13 @@
 :root{
-  --bg:#071711;
-  --bg2:#0e2a1f;
-  --panel:#10241c;
-  --panel2:#163328;
+  --bg:#050708;
+  --bg2:#08130f;
+  --panel:#0d1412;
+  --panel2:#131d1a;
   --text:#f3fff9;
-  --muted:#b7d7c8;
-  --line:#275342;
-  --accent:#27c77b;
-  --accent2:#62e6a4;
+  --muted:#a9c2b7;
+  --line:#1f342d;
+  --accent:#2fbf7a;
+  --accent2:#79e7b0;
   --ok:#24c278;
   --warn:#f4c14d;
   --bad:#f26b73;
@@ -17,8 +17,8 @@ body{
   margin:0;
   font-family:Inter,system-ui,Arial,sans-serif;
   color:var(--text);
-  background:radial-gradient(1000px 500px at 90% -10%, rgba(39,199,123,.25), transparent 55%),
-             linear-gradient(180deg,var(--bg),var(--bg2) 45%,var(--bg));
+  background:radial-gradient(1000px 500px at 88% -12%, rgba(39,199,123,.14), transparent 58%),
+             linear-gradient(180deg,var(--bg),var(--bg2) 45%,#040506);
 }
 .container{max-width:1220px;margin:0 auto;padding:20px}
 .top{
