@@ -7,3 +7,4 @@ A-0005,2026-02-23,L-0001,internal,cleanup,Filtered CRM to keep only direct iGami
 A-0006,2026-02-23,L-0001,internal,enrichment,Added contact channels (email/Telegram/LinkedIn) for ICP leads and collaboration-role records,ok,Prepare outreach batch from verified contacts,2026-02-24,Jo
 A-0007,2026-02-24,L-0029,internal,research,Added 6 new high-quality iGaming/media-buying leads with initial contact channels and role targets,ok,Start outreach on new high-fit batch,2026-02-24,Jo
 A-0008,2026-02-24,L-0001,internal,enhancement,Added market region tags (EU/UK/US/Global) across leads, companies, and decision-makers,ok,Use region filters for outreach sequencing,2026-02-24,Jo
+A-0009,2026-02-24,L-0001,internal,enhancement,Added new ICP & Scripts page with qualification questions and EN/RU outreach templates,ok,Use scripts during daily outreach cycles,2026-02-24,Jo

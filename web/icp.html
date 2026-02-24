@@ -1,0 +1,25 @@
+<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'><title>PP CRM · ICP & Scripts</title><link rel='stylesheet' href='./styles.css'></head><body><div class='container'>
+<div class='top'><div class='brand-wrap'><img class='logo-img' src='https://pay.partners/wp-content/themes/newpp/images/logo.svg' alt='PP logo'><div><div class='brand'>ICP & Outreach Scripts</div><div class='sub'>Who we target, why they fit, and what to send first</div></div></div><div class='nav'><a href='./index.html'>Dashboard</a><a href='./companies.html'>Target Companies</a><a href='./decision-makers.html'>Decision Makers</a><a class='active' href='./icp.html'>ICP & Scripts</a></div></div>
+
+<div class='grid'>
+  <div class='card'><div class='muted'>Tier 1 ICP</div><div class='kpi' style='font-size:20px'>iGaming Media Buying Agencies</div><div class='muted'>Budget-heavy teams, multi-campaign spend, clear pain on declines/limits/reporting.</div></div>
+  <div class='card'><div class='muted'>Tier 2 ICP</div><div class='kpi' style='font-size:20px'>Sports Betting Performance Teams</div><div class='muted'>Need fast scaling + stable cards/wallet operations.</div></div>
+  <div class='card'><div class='muted'>Tier 3 ICP</div><div class='kpi' style='font-size:20px'>iGaming PPC Agencies</div><div class='muted'>Multi-client ad accounts, need operational payment reliability.</div></div>
+</div>
+
+<div class='section'>
+  <h2>Qualification Questions (fast)</h2>
+  <div class='card'>
+    <ul>
+      <li>Monthly ad spend range?</li>
+      <li>How many buyers / campaign managers?</li>
+      <li>Main pain right now: declines, limits, top-up speed, reporting?</li>
+      <li>Need crypto funding, fiat settlement, or both?</li>
+      <li>Who owns final decision on payment infrastructure?</li>
+    </ul>
+  </div>
+</div>
+
+<div class='section'><h2>Outreach Scripts</h2><div class='table-wrap'><table><thead><tr><th>Segment</th><th>Persona</th><th>Trigger</th><th>Channel</th><th>Lang</th><th>Script</th></tr></thead><tbody id='rows'></tbody></table></div></div>
+<div class='footer'>Source: ../icp-scripts.csv</div>
+</div><script src='./app.js'></script><script>(async()=>{const rows=await loadCSV('../icp-scripts.csv');byId('rows').innerHTML=rows.map(r=>`<tr><td>${r.segment}</td><td>${r.persona}</td><td>${r.trigger}</td><td>${r.channel}</td><td>${r.language}</td><td>${(r.script||'').replace(/\n/g,'<br>')}</td></tr>`).join('');})();</script></body></html>
