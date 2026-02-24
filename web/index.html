@@ -12,5 +12,13 @@
 </div><script src='./app.js'></script><script>
 (async()=>{const leads=await loadCSV('../leads.csv');const hc=await loadCSV('../high-chance-prospects.csv');
 byId('kTotal').textContent=leads.length;byId('kA').textContent=hc.filter(x=>x.priority==='A').length;byId('kNew').textContent=leads.filter(x=>(x.stage||'')==='New').length;
-byId('topRows').innerHTML=hc.slice(0,10).map(r=>`<tr><td>${r.company}</td><td>${r.segment}</td><td>${badge(r.priority)}</td><td>${r.next_step}</td><td><a class='link' target='_blank' href='${r.website}'>open</a></td></tr>`).join('');})();
+const order={A:0,B:1,C:2};
+const sorted=[...hc].sort((x,y)=>{
+  const px=(x.priority||'C').toUpperCase(), py=(y.priority||'C').toUpperCase();
+  if((order[px]??9)!==(order[py]??9)) return (order[px]??9)-(order[py]??9);
+  const wx=parseFloat((x.win_probability||'0').replace('%',''))||0;
+  const wy=parseFloat((y.win_probability||'0').replace('%',''))||0;
+  return wy-wx;
+});
+byId('topRows').innerHTML=sorted.slice(0,10).map(r=>`<tr><td>${r.company}</td><td>${r.segment}</td><td>${badge(r.priority)}</td><td>${r.next_step}</td><td><a class='link' target='_blank' href='${r.website}'>open</a></td></tr>`).join('');})();
 </script></body></html>
