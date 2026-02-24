@@ -3,7 +3,7 @@
 Date: 2026-02-23
 
 ## Stage counts
-- New: 20
+- New: 26
 - Contacted: 0
 - Replied: 0
 - Qualified: 0
@@ -15,7 +15,7 @@ Date: 2026-02-23
 
 ## Priority counts
 - A (75-100): 0
-- B (50-74): 20
+- B (50-74): 26
 - C (0-49): 0
 
 ## Today focus
