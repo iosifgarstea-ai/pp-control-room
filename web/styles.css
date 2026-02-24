@@ -22,7 +22,7 @@ body{
 }
 .container{max-width:1220px;margin:0 auto;padding:20px}
 .top{
-  display:flex;justify-content:space-between;align-items:flex-start;gap:14px;
+  display:flex;justify-content:space-between;align-items:flex-start;gap:14px;flex-wrap:wrap;
   margin-bottom:16px;background:linear-gradient(180deg,rgba(255,255,255,.02),transparent);
   border:1px solid var(--line);border-radius:14px;padding:14px;
 }
@@ -36,8 +36,8 @@ body{
 }
 .brand{font-size:18px;font-weight:700;line-height:1;text-transform:uppercase;letter-spacing:.12em;color:#d8fbe9}
 .sub{color:var(--muted);font-size:12px;margin-top:6px}
-.hero-title{font-family:Impact, Haettenschweiler, 'Arial Black', sans-serif;font-size:54px;line-height:.92;letter-spacing:.01em;text-transform:uppercase;margin:4px 0 0;color:#f1fff8}
-.hero-title .dark{color:#08130f;background:#d8ffe9;padding:0 .14em;border-radius:4px}
+.hero-title{font-family:Impact, Haettenschweiler, 'Arial Black', sans-serif;font-size:52px;line-height:1.02;letter-spacing:.01em;text-transform:uppercase;margin:8px 0 4px;color:#f1fff8;display:block;max-width:100%;word-break:break-word}
+.hero-title .dark{color:#08130f;background:#d8ffe9;padding:.02em .14em;border-radius:4px;display:inline-block;margin-top:4px}
 .hero-strip{margin-top:12px;border:1px solid #3d785f;background:linear-gradient(180deg,#143426,#10271d);border-radius:16px;padding:12px;display:flex;gap:14px;align-items:center}
 .mock-screen{flex:0 0 300px;max-width:42%;aspect-ratio:16/10;border-radius:12px;background:linear-gradient(140deg,#0b0f0d,#151f1b);border:1px solid #304f41;position:relative;overflow:hidden}
 .mock-screen:before{content:'';position:absolute;inset:12% 10%;border-radius:10px;background:linear-gradient(120deg,#1f6a4a,#143a2b)}
