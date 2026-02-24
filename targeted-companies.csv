@@ -1,23 +1,23 @@
-company_id,company,website,segment,country,provider_status,inhouse_risk,win_probability,priority,next_action,notes
-C-001,Ascend Global,https://ascendglobal.io,iGaming programmatic agency,Unknown,Unknown,Low,72,A,Find Head of Performance on LinkedIn,High-volume fit
-C-002,CliqBetter,https://cliqbetter.com,iGaming ad network/media buying,Unknown,Unknown,Medium,70,A,Find commercial lead + qualify spend,Strong vertical fit
-C-003,iGaming Scale,https://igamingscale.com,iGaming media buying agency,Unknown,Unknown,Medium,68,A,Identify founder and outreach,Good media-buying fit
-C-004,Performix Media,https://performixmedia.com,iGaming acquisition agency,Unknown,Unknown,Low,67,A,Find decision maker and run discovery,Agency use case fit
-C-005,XCLSV Media,https://xclsvmedia.com,Sports betting/iGaming marketing,Unknown,Unknown,Low,66,B,Outreach to growth/performance lead,Vertical fit
-C-006,Player Performance Group,https://www.playerperformancegroup.com,Casino performance marketing,Unknown,Unknown,Low,65,B,Find COO/Head of Ops,Casino focus
-C-007,Incline Gaming,https://inclinegaming.com,iGaming marketing agency,Unknown,Unknown,Medium,63,B,Confirm in-house buying vs partner model,Need qualification
-C-008,TBD.Media,https://tbd.media/igaming-marketing/,iGaming marketing agency,Unknown,Unknown,Low,62,B,Find paid media manager,Potential fit
-C-009,Clear Media Group (iGaming),https://clearmediagroup.ca/igaming-media-buying-agency/,iGaming media buying agency,Canada,Unknown,Low,61,B,Send geo-specific discovery,Explicit service page
-C-011,GameOn,https://gameon.im,iGaming marketing & PR agency,Unknown,Unknown,Low,65,B,Find founder/commercial lead,Vertical-fit agency
-C-012,Bird Marketing (Casino),https://bird.marketing/casino/,Casino digital marketing agency,UK,Unknown,Low,61,B,Find head of paid media,Service fit with buyer teams
-C-013,Traffic Lab (iGaming),https://trafficlab.com,Performance media buying,Unknown,Unknown,Medium,65,B,Confirm direct buying scope and spend,Needs verification
-C-016,Click Intelligence,https://www.clickintelligence.com,iGaming/casino PPC agency,UK,Unknown,Low,70,B,Find account director / PPC lead,High chance direct operator team
-C-017,AWISEE,https://awisee.com,iGaming PPC/growth agency,Switzerland,Unknown,Low,67,B,Find partnerships manager,Likely high collaboration fit
-C-018,Crowdcreate,https://crowdcreate.us/igaming-marketing-agency/,iGaming marketing agency,USA,Unknown,Medium,65,B,Find account/partnership lead,Vertical fit
-C-019,NinjaPromo,https://ninjapromo.io,Multi-vertical PPC incl iGaming,Global,Unknown,Medium,64,B,Find iGaming practice lead,High-volume but needs precise contact
-C-020,Andava,https://www.andava.com/igaming-marketing/media-buying/,iGaming media buying agency,Unknown,Unknown,Low,71,B,Find paid media/account lead,Direct fit + public email
-C-021,Rise The Bet,https://risethebet.com/,Sports betting & iGaming agency,Unknown,Unknown,Low,65,B,Reach partnerships/account lead,Direct vertical fit
-C-022,AdversterX,https://adversterx.com/igaming/,iGaming media buying & affiliate agency,Unknown,Unknown,Low,70,B,Telegram outreach to media buying contact,Strong contact access
-C-023,Triple Mind Media,https://triplemindmedia.com/,iGaming affiliate marketing agency,Unknown,Unknown,Low,64,B,Email partnerships lead,Direct partnerships inbox
-C-024,Revpanda,https://revpanda.com/,iGaming media/traffic agency,Unknown,Unknown,Medium,66,B,Find account director,Good service overlap
-C-025,SEO iGaming,https://seoigaming.com/casino-ppc/,Casino PPC agency,Unknown,Unknown,Low,60,B,Find PPC manager,Direct casino PPC fit
+company_id,company,website,segment,country,market_region,provider_status,inhouse_risk,win_probability,priority,next_action,notes
+C-001,Ascend Global,https://ascendglobal.io,iGaming programmatic agency,Unknown,EU/Global,Unknown,Low,72,A,Find Head of Performance on LinkedIn,High-volume fit
+C-002,CliqBetter,https://cliqbetter.com,iGaming ad network/media buying,Unknown,EU/Global,Unknown,Medium,70,A,Find commercial lead + qualify spend,Strong vertical fit
+C-003,iGaming Scale,https://igamingscale.com,iGaming media buying agency,Unknown,EU/Global,Unknown,Medium,68,A,Identify founder and outreach,Good media-buying fit
+C-004,Performix Media,https://performixmedia.com,iGaming acquisition agency,Unknown,EU/Global,Unknown,Low,67,A,Find decision maker and run discovery,Agency use case fit
+C-005,XCLSV Media,https://xclsvmedia.com,Sports betting/iGaming marketing,Unknown,EU/Global,Unknown,Low,66,B,Outreach to growth/performance lead,Vertical fit
+C-006,Player Performance Group,https://www.playerperformancegroup.com,Casino performance marketing,Unknown,US,Unknown,Low,65,B,Find COO/Head of Ops,Casino focus
+C-007,Incline Gaming,https://inclinegaming.com,iGaming marketing agency,Unknown,EU/Global,Unknown,Medium,63,B,Confirm in-house buying vs partner model,Need qualification
+C-008,TBD.Media,https://tbd.media/igaming-marketing/,iGaming marketing agency,Unknown,EU/Global,Unknown,Low,62,B,Find paid media manager,Potential fit
+C-009,Clear Media Group (iGaming),https://clearmediagroup.ca/igaming-media-buying-agency/,iGaming media buying agency,Canada,CA/EU,Unknown,Low,61,B,Send geo-specific discovery,Explicit service page
+C-011,GameOn,https://gameon.im,iGaming marketing & PR agency,Unknown,EU/Global,Unknown,Low,65,B,Find founder/commercial lead,Vertical-fit agency
+C-012,Bird Marketing (Casino),https://bird.marketing/casino/,Casino digital marketing agency,UK,UK/EU,Unknown,Low,61,B,Find head of paid media,Service fit with buyer teams
+C-013,Traffic Lab (iGaming),https://trafficlab.com,Performance media buying,Unknown,EU/Global,Unknown,Medium,65,B,Confirm direct buying scope and spend,Needs verification
+C-016,Click Intelligence,https://www.clickintelligence.com,iGaming/casino PPC agency,UK,UK/EU,Unknown,Low,70,B,Find account director / PPC lead,High chance direct operator team
+C-017,AWISEE,https://awisee.com,iGaming PPC/growth agency,Switzerland,EU,Unknown,Low,67,B,Find partnerships manager,Likely high collaboration fit
+C-018,Crowdcreate,https://crowdcreate.us/igaming-marketing-agency/,iGaming marketing agency,USA,US,Unknown,Medium,65,B,Find account/partnership lead,Vertical fit
+C-019,NinjaPromo,https://ninjapromo.io,Multi-vertical PPC incl iGaming,Global,Global,Unknown,Medium,64,B,Find iGaming practice lead,High-volume but needs precise contact
+C-020,Andava,https://www.andava.com/igaming-marketing/media-buying/,iGaming media buying agency,Unknown,EU/Global,Unknown,Low,71,B,Find paid media/account lead,Direct fit + public email
+C-021,Rise The Bet,https://risethebet.com/,Sports betting & iGaming agency,Unknown,EU,Unknown,Low,65,B,Reach partnerships/account lead,Direct vertical fit
+C-022,AdversterX,https://adversterx.com/igaming/,iGaming media buying & affiliate agency,Unknown,EU/Global,Unknown,Low,70,B,Telegram outreach to media buying contact,Strong contact access
+C-023,Triple Mind Media,https://triplemindmedia.com/,iGaming affiliate marketing agency,Unknown,EU/Global,Unknown,Low,64,B,Email partnerships lead,Direct partnerships inbox
+C-024,Revpanda,https://revpanda.com/,iGaming media/traffic agency,Unknown,EU/Global,Unknown,Medium,66,B,Find account director,Good service overlap
+C-025,SEO iGaming,https://seoigaming.com/casino-ppc/,Casino PPC agency,Unknown,EU/Global,Unknown,Low,60,B,Find PPC manager,Direct casino PPC fit
