@@ -1,5 +1,6 @@
 async function loadCSV(path){
-  const r = await fetch(path);
+  const sep = path.includes('?') ? '&' : '?';
+  const r = await fetch(path + sep + 'v=' + Date.now(), { cache: 'no-store' });
   const t = await r.text();
   const [h,...rows]=t.trim().split(/\r?\n/);
   const headers=h.split(',');
